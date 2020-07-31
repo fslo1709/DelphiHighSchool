@@ -1,0 +1,9 @@
+program capicuas;//Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+var
+  a,b,c,d,e: integer;
+begin
+  Writeln ('Sebastián López');
+end.

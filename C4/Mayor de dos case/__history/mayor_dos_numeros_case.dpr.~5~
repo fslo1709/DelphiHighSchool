@@ -1,0 +1,18 @@
+program mayor_dos_numeros_case;//Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+var
+  a,b: integer;
+begin
+  writeln ('Sebastián López');
+  Writeln ('Ingrese dos números');
+  Readln (a,b);
+  case a div b of
+    0: writeln('El mayor es a');
+  else
+    Writeln ('El mayor es b');
+  end;
+  Readln
+end.

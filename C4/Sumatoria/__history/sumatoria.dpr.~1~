@@ -1,0 +1,10 @@
+program sumatoria;//Pedro Armas, C4
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+var
+  cont,sum,num: integer;
+begin
+  writeln ('Pedro Armas');
+end.

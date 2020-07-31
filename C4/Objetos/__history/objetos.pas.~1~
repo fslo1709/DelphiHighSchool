@@ -1,0 +1,18 @@
+unit objetos;
+interface
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, stdctrls;
+type
+  TForm1 = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+var
+  Form1: TForm1;
+  b: tbutton;
+implementation
+{$R *.dfm}
+end.

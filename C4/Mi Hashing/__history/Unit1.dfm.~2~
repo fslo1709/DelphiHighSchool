@@ -1,0 +1,88 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 265
+  ClientWidth = 440
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 280
+    Top = 32
+    Width = 75
+    Height = 25
+    Caption = 'Ingresar'
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 280
+    Top = 88
+    Width = 75
+    Height = 25
+    Caption = 'Borrar'
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 280
+    Top = 144
+    Width = 75
+    Height = 25
+    Caption = 'Buscar'
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 280
+    Top = 200
+    Width = 75
+    Height = 25
+    Caption = 'Modificar'
+    TabOrder = 3
+  end
+  object LabeledEdit1: TLabeledEdit
+    Left = 72
+    Top = 34
+    Width = 121
+    Height = 21
+    EditLabel.Width = 37
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Nombre'
+    TabOrder = 4
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 72
+    Top = 90
+    Width = 121
+    Height = 21
+    EditLabel.Width = 43
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Direcci'#243'n'
+    TabOrder = 5
+  end
+  object LabeledEdit3: TLabeledEdit
+    Left = 72
+    Top = 146
+    Width = 121
+    Height = 21
+    EditLabel.Width = 42
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Tel'#233'fono'
+    TabOrder = 6
+  end
+  object LabeledEdit4: TLabeledEdit
+    Left = 72
+    Top = 202
+    Width = 121
+    Height = 21
+    EditLabel.Width = 37
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Nombre'
+    TabOrder = 7
+  end
+end

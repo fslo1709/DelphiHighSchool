@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/04/11 10:31:42.000.797,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/11 10:32:48.000.635,C:\Users\Victor Lopez\Desktop\Programas\Fórmula Perfecta\Formula_perfecta.dfm=C:\Windows\system32\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/04/11 10:32:48.000.635,C:\Users\Victor Lopez\Desktop\Programas\Fórmula Perfecta\Formula_perfecta.pas=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/11 10:32:53.000.763,C:\Users\Victor Lopez\Desktop\Programas\Fórmula Perfecta\formula_perfecta_.dproj=C:\Windows\system32\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

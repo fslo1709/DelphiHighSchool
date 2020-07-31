@@ -1,0 +1,70 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Modificar'
+  ClientHeight = 412
+  ClientWidth = 366
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Edit1: TEdit
+    Left = 24
+    Top = 22
+    Width = 169
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Text = '0'
+  end
+  object Button1: TButton
+    Left = 199
+    Top = 22
+    Width = 153
+    Height = 27
+    Caption = 'Buscar por c'#243'digo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 24
+    Top = 88
+    Width = 75
+    Height = 25
+    Caption = 'Modificar'
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 105
+    Top = 88
+    Width = 75
+    Height = 25
+    Caption = 'Borrar'
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 186
+    Top = 88
+    Width = 75
+    Height = 25
+    Caption = 'Cancelar'
+    TabOrder = 4
+    OnClick = Button4Click
+  end
+end

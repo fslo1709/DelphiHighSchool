@@ -1,0 +1,11 @@
+program base_dos_a_diez;//Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+var
+  a,b: integer;
+begin
+  writeln('Ingrese un número en base diez');
+  readln(a);
+end.

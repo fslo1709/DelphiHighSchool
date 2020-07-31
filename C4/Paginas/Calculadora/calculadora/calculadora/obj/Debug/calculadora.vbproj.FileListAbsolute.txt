@@ -1,0 +1,8 @@
+C:\Users\Victor Lopez\Desktop\Programas\Paginas\Calculadora\calculadora\calculadora\bin\calculadora.dll
+C:\Users\Victor Lopez\Desktop\Programas\Paginas\Calculadora\calculadora\calculadora\bin\calculadora.pdb
+C:\Users\Victor Lopez\Desktop\Programas\Paginas\Calculadora\calculadora\calculadora\bin\calculadora.xml
+C:\Users\Victor Lopez\Desktop\Programas\Paginas\Calculadora\calculadora\calculadora\obj\Debug\calculadora.Resources.resources
+C:\Users\Victor Lopez\Desktop\Programas\Paginas\Calculadora\calculadora\calculadora\obj\Debug\calculadora.vbproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Programas\Paginas\Calculadora\calculadora\calculadora\obj\Debug\calculadora.dll
+C:\Users\Victor Lopez\Desktop\Programas\Paginas\Calculadora\calculadora\calculadora\obj\Debug\calculadora.xml
+C:\Users\Victor Lopez\Desktop\Programas\Paginas\Calculadora\calculadora\calculadora\obj\Debug\calculadora.pdb

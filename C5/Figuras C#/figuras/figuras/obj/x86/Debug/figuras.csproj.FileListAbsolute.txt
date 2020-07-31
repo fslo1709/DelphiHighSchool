@@ -1,0 +1,8 @@
+C:\Users\Victor Lopez\Desktop\Programas\C5\Figuras C#\figuras\figuras\obj\x86\Debug\figuras.csprojResolveAssemblyReference.cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Figuras C#\figuras\figuras\obj\x86\Debug\figuras.Form1.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Figuras C#\figuras\figuras\obj\x86\Debug\figuras.Properties.Resources.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Figuras C#\figuras\figuras\obj\x86\Debug\figuras.csproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Figuras C#\figuras\figuras\bin\Debug\figuras.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Figuras C#\figuras\figuras\bin\Debug\figuras.pdb
+C:\Users\Victor Lopez\Desktop\Programas\C5\Figuras C#\figuras\figuras\obj\x86\Debug\figuras.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Figuras C#\figuras\figuras\obj\x86\Debug\figuras.pdb

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/08/22 11:56:17.000.465,=C:\Users\Victor Lopez\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/08/22 12:22:01.000.967,C:\Users\Victor Lopez\Desktop\Programas\C5\Tetris extremo\Unit1.pas=C:\Users\Victor Lopez\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/08/22 12:22:01.000.967,C:\Users\Victor Lopez\Desktop\Programas\C5\Tetris extremo\Unit1.dfm=C:\Users\Victor Lopez\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2015/08/22 12:22:04.000.103,C:\Users\Victor Lopez\Desktop\Programas\C5\Tetris extremo\tetris.dproj=C:\Users\Victor Lopez\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2015/08/22 12:22:57.000.273,=C:\Users\Victor Lopez\Desktop\Programas\C5\Tetris extremo\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

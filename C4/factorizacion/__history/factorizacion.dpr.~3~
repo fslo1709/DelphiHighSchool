@@ -1,0 +1,17 @@
+program factorizacion; //Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+var
+  x1,x2,y1,y2,r: integer;
+begin
+  writeln ('ingrese datos para resolver (x2-x1)^2+(y2-y1)^2');
+  readln('x2',x2);
+  readln('x1',x1);
+  readln('y2',y2);
+  readln('y1',y1);
+  r:= ((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1));
+  writeln ('el resultado es ',r);
+  readln
+end.

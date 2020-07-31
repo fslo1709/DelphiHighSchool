@@ -1,0 +1,7 @@
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hoja C#\hoja\hoja\bin\Debug\hoja.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hoja C#\hoja\hoja\bin\Debug\hoja.pdb
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hoja C#\hoja\hoja\obj\x86\Debug\hoja.Form1.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hoja C#\hoja\hoja\obj\x86\Debug\hoja.Properties.Resources.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hoja C#\hoja\hoja\obj\x86\Debug\hoja.csproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hoja C#\hoja\hoja\obj\x86\Debug\hoja.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hoja C#\hoja\hoja\obj\x86\Debug\hoja.pdb

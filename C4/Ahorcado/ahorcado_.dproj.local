@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/08/26 09:12:08.000.164,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/26 09:14:02.000.805,C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\ahorcado.pas=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/26 09:14:02.000.805,C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\ahorcado.dfm=C:\Windows\system32\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/08/26 09:14:05.000.514,C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\ahorcado_.dproj=C:\Windows\system32\Projects\Project1.dproj</Transaction>
+    <Transaction>2014/08/26 18:07:56.000.540,=C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\Unit1.pas</Transaction>
+    <Transaction>2014/08/26 18:08:10.000.532,=C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\Unit2.pas</Transaction>
+    <Transaction>2014/08/26 18:08:36.000.949,C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\Unit2.dfm=C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\ahorcado2.dfm</Transaction>
+    <Transaction>2014/08/26 18:08:36.000.949,C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\Unit2.pas=C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\ahorcado2.pas</Transaction>
+    <Transaction>2014/09/02 18:23:01.000.093,=C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\Unit3.pas</Transaction>
+    <Transaction>2014/09/02 18:23:44.000.148,C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\Unit3.pas=C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\ahorcado3.pas</Transaction>
+    <Transaction>2014/09/02 18:23:44.000.148,C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\Unit3.dfm=C:\Users\Victor Lopez\Desktop\Programas\Ahorcado\ahorcado3.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

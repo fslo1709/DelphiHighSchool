@@ -1,0 +1,13 @@
+program saludo;
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+procedure saludo (n: string);
+begin
+  writeln ('Hola ', n, ', espero que estéis bien tío');
+end;
+begin
+  Writeln ('Sebastián López');
+  Saludo ('Chipi Pro lml');
+  readln
+end.

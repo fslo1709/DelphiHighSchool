@@ -1,0 +1,204 @@
+<html>
+<center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<font face="Bradley Hand ITC" size="6"><head> Calculadora </head></font><br>
+<title> Fernando López C4A </title>
+<body bgcolor="green"><br>
+<table style="width:20%" border="1">
+<tr>
+<th colspan="6"><input type="text" id="n1" value="0" disabled=true style="width:268;height:30"></th>
+</tr>
+<tr>
+<td colspan="2"><input type="button" value="C" Onclick="cl()" style="width:86;height:30"></td>
+<td colspan="2"><input type="button" value="CE" Onclick="ce()" style="width:86;height:30"></td>
+<td><input type="button" value="1/x " Onclick="inverso()" style="width:40;height:30"></td>
+<td><input type="button" value="+/-" Onclick="cambiosig()" style="width:40;height:30"></td>
+</tr>
+<tr>
+<td><input type="button" value="7" Onclick="numero(7)" style="width:40;height:30"></td>
+<td><input type="button" value="8" Onclick="numero(8)" style="width:40;height:30"></td>
+<td><input type="button" value="9" Onclick="numero(9)" style="width:40;height:30"></td>
+<td><input type="button" value="/" id="div" Onclick="signo(4)" style="width:40;height:30"></td>
+<td><input type="button" value="%" id="por" disabled=true Onclick="porcentaje()" style="width:40;height:30"></td>
+<td><input type="button" value="^2" Onclick="elevado()" style="width:40;height:30"></td>
+</tr>
+<tr>
+<td><input type="button" value="4" Onclick="numero(4)" style="width:40;height:30"></td>
+<td><input type="button" value="5" Onclick="numero(5)" style="width:40;height:30"></td>
+<td><input type="button" value="6" Onclick="numero(6)" style="width:40;height:30"></td>
+<td><input type="button" value="*" id="mult" Onclick="signo(3)" style="width:40;height:30"></td>
+<td><input type="button" value="sqrt " Onclick="raiz()" style="width:40;height:30"></td>
+<td><input type="button" value="sin" Onclick="trig(2)" style="width:40;height:30"></td>
+</tr>
+<tr>
+<td><input type="button" value="1" Onclick="numero(1)" style="width:40;height:30"></td>
+<td><input type="button" value="2" Onclick="numero(2)" style="width:40;height:30"></td>
+<td><input type="button" value="3" Onclick="numero(3)" style="width:40;height:30"></td>
+<td><input type="button" value="-" id="menos" Onclick="signo(2)" style="width:40;height:30"></td>
+<td rowspan="2"><input type="button" value="=" id="ig" disabled=true Onclick="operar()" style="width:40;height:66"></td>
+<td><input type="button" value="cos" Onclick="trig(1)" style="width:40;height:30"></td>
+</tr>
+<tr>
+<td colspan="2"><input type="button" value="0" Onclick="numero(0)" style="width:86;height:30"></td>
+<td><input type="button" value="." id="punt" Onclick="punto()" style="width:40;height:30"></td>
+<td><input type="button" value="+" id="suma" Onclick="signo(1)" style="width:40;height:30"></td>
+<td><input type="button" value="tan" Onclick="trig(3)" style="width:40;height:30"></td>
+</tr>
+</table>
+</center>
+<script>
+var sig=0;
+var op1=0;
+var op2=0;
+var res=0;
+var d=0;
+var resta=false;
+function numero(a)
+{ if (n1.value!="0")
+    n1.value+=a;
+  else
+    n1.value=a;
+}
+function punto()
+{ n1.value+=".";
+  punt.disabled=true;
+}
+function cl()
+{ n1.value="0";
+  punt.disabled=false;
+}
+function ce()
+{ n1.value="0";
+  sig=0;
+  op1=0;
+  op2=0;
+  res=0;
+  punt.disabled=false;
+  menos.disabled=false;
+  mult.disabled=false;
+  div.disabled=false;
+  suma.disabled=false;
+  ig.disabled=true;
+  por.disabled=true;
+}
+function signo(a)
+{ sig=a;
+  if (resta=true)
+    d=(n1.value)*1;
+  if ((sig==3)||(sig==4))
+  { op1=d;
+    suma.disabled=true;
+    menos.disabled=true;
+  }
+  else
+  { op1=a+d;
+    if (sig==2)
+      resta=true;
+    else
+      resta=false;
+  }
+  mult.disabled=true;
+  div.disabled=true;
+  n1.value="0";
+  punt.disabled=false;
+  ig.disabled=false;
+  por.disabled=false;
+}
+function operar()
+{ if (sig==1)
+  { op2=(n1.value)*1;
+    res=op1+op2;
+    n1.value=res;
+  }
+  else if (sig==2)
+  { op2=(n1.value)*1;
+    res=op1-op2;
+    n1.value=res;
+  }
+  else if (sig==3)
+  { op2=(n1.value)*1;
+    res=op1*op2;
+    n1.value=res;
+  }
+  else if (sig==4)
+  { op2=(n1.value)*1;
+    if (op2!=0)
+    { res=op1/op2;
+      n1.value=res;
+    }
+    else
+      { window.alert("Error");
+      }
+  }
+  sig=0;
+  menos.disabled=false;
+  mult.disabled=false;
+  div.disabled=false;
+  suma.disabled=false;
+  ig.disabled=true;
+  por.disabled=true;
+}
+function cambiosig()
+{ res=(n1.value)*1;
+  res=res*(-1);
+  n1.value=res;
+  res=0;
+}
+function elevado()
+{ res=(n1.value)*1;
+  res=res*res;
+  n1.value=res;
+  res=0;
+}
+function porcentaje()
+{ res=(n1.value)*1;
+  res=(op1*res)/100;
+  n1.value=res;
+  res=0;
+}
+function raiz()
+{ res=(n1.value)*1;
+  if (res<0)
+  {
+    window.alert("Error");
+  }
+  else
+  {
+    res=Math.sqrt(res);
+  }
+  n1.value=res;
+  res=0; 
+}
+function inverso()
+{ res=(n1.value)*1;
+  if (res!=0)
+  { res=1/res;
+    n1.value=res;
+  }
+  else
+  { window.alert("Error");
+  }
+  res=0;
+}
+function trig(a)
+{ res=(n1.value)*1;
+  if (a==1)
+  { res=Math.cos(res*Math.PI/180);
+  }
+  else if (a==2)
+  { res=Math.sin(res*Math.PI/180); 
+  }
+  else if (a==3)
+  { res=Math.tan(res*Math.PI/180);
+  }
+  n1.value=res;
+  res=0;
+}
+</script>
+</body>
+</html>

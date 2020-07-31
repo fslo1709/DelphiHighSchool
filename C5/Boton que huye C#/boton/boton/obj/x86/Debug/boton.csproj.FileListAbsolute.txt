@@ -1,0 +1,7 @@
+C:\Users\Victor Lopez\Desktop\Programas\C5\Boton que huye C#\boton\boton\bin\Debug\boton.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Boton que huye C#\boton\boton\bin\Debug\boton.pdb
+C:\Users\Victor Lopez\Desktop\Programas\C5\Boton que huye C#\boton\boton\obj\x86\Debug\boton.Form1.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Boton que huye C#\boton\boton\obj\x86\Debug\boton.Properties.Resources.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Boton que huye C#\boton\boton\obj\x86\Debug\boton.csproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Boton que huye C#\boton\boton\obj\x86\Debug\boton.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Boton que huye C#\boton\boton\obj\x86\Debug\boton.pdb

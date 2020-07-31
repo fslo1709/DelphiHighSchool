@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/04/04 08:26:55.000.346,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/04 08:28:14.000.810,C:\Users\Victor Lopez\Desktop\Programas\Números Vampiros\numeros_vampiros.pas=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/04/04 08:28:14.000.810,C:\Users\Victor Lopez\Desktop\Programas\Números Vampiros\numeros_vampiros.dfm=C:\Windows\system32\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/04/04 08:28:18.000.448,C:\Users\Victor Lopez\Desktop\Programas\Números Vampiros\numeros_vampiros_.dproj=C:\Windows\system32\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,48 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 411
+  ClientWidth = 545
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object StringGrid1: TStringGrid
+    Left = 40
+    Top = 56
+    Width = 297
+    Height = 33
+    DefaultColWidth = 24
+    FixedCols = 0
+    RowCount = 1
+    FixedRows = 0
+    TabOrder = 0
+  end
+  object StringGrid2: TStringGrid
+    Left = 40
+    Top = 160
+    Width = 297
+    Height = 33
+    DefaultColWidth = 24
+    FixedCols = 0
+    RowCount = 1
+    FixedRows = 0
+    TabOrder = 1
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 408
+    Top = 72
+    Width = 33
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 2
+    Value = 0
+  end
+end

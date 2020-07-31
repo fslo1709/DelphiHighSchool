@@ -1,0 +1,110 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Guitar Hero'
+  ClientHeight = 542
+  ClientWidth = 352
+  Color = clBlack
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 0
+    Top = 0
+    Width = 347
+    Height = 150
+    Caption = 'Guitar Hero:'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -96
+    Font.Name = 'Nightmare Hero'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 150
+    Width = 305
+    Height = 100
+    Caption = 'Legends of Chipi'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -64
+    Font.Name = 'Nightmare Hero'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 104
+    Top = 272
+    Width = 142
+    Height = 55
+    Caption = '1 JUGADOR'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -35
+    Font.Name = 'Nightmare Hero'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 83
+    Top = 328
+    Width = 180
+    Height = 55
+    Caption = '2 JUGADORES'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -35
+    Font.Name = 'Nightmare Hero'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 87
+    Top = 384
+    Width = 174
+    Height = 55
+    Caption = 'COMPOSICION'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -35
+    Font.Name = 'Nightmare Hero'
+    Font.Style = []
+    ParentFont = False
+    OnClick = Label5Click
+  end
+  object Label6: TLabel
+    Left = 131
+    Top = 488
+    Width = 80
+    Height = 55
+    Caption = 'SALIR'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -35
+    Font.Name = 'Nightmare Hero'
+    Font.Style = []
+    ParentFont = False
+    OnClick = Label6Click
+  end
+  object Label7: TLabel
+    Left = 123
+    Top = 435
+    Width = 93
+    Height = 55
+    Caption = 'AYUDA'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -35
+    Font.Name = 'Nightmare Hero'
+    Font.Style = []
+    ParentFont = False
+    OnClick = Label7Click
+  end
+end

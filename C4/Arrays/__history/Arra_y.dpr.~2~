@@ -1,0 +1,13 @@
+program Arra_y;
+
+{$APPTYPE CONSOLE}
+
+uses
+  SysUtils;
+var
+  i,s,n: integer;
+  vec: array[1..10] of integer;
+begin
+  write ('Ingrese cuantos valores son: ');
+  readln(n);
+end.

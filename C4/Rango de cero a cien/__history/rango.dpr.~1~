@@ -1,0 +1,8 @@
+program rango;//Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+begin
+
+end.

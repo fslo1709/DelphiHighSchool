@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/07/10 09:06:21.000.999,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/07/13 18:04:07.000.444,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/07/13 18:38:37.000.942,C:\Users\Victor Lopez\Desktop\Programas\C5\MySQL\Unit1.pas=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/07/13 18:38:37.000.942,C:\Users\Victor Lopez\Desktop\Programas\C5\MySQL\Unit1.dfm=C:\Windows\system32\Projects\Unit1.dfm</Transaction>
+    <Transaction>2015/07/13 18:38:41.000.206,C:\Users\Victor Lopez\Desktop\Programas\C5\MySQL\mysql.dproj=C:\Windows\system32\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

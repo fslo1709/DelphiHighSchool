@@ -1,0 +1,8 @@
+C:\Users\Victor Lopez\Desktop\Programas\C5\Lineas C#\lineas\lineas\bin\Debug\lineas.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Lineas C#\lineas\lineas\bin\Debug\lineas.pdb
+C:\Users\Victor Lopez\Desktop\Programas\C5\Lineas C#\lineas\lineas\obj\x86\Debug\lineas.csprojResolveAssemblyReference.cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Lineas C#\lineas\lineas\obj\x86\Debug\lineas.Form1.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Lineas C#\lineas\lineas\obj\x86\Debug\lineas.Properties.Resources.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Lineas C#\lineas\lineas\obj\x86\Debug\lineas.csproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Lineas C#\lineas\lineas\obj\x86\Debug\lineas.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Lineas C#\lineas\lineas\obj\x86\Debug\lineas.pdb

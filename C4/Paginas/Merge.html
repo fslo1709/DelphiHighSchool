@@ -1,0 +1,73 @@
+<html>
+<head><font size="12"><center>Merge</center></font></head> <br>
+<title>Fernando López, C5A</title>
+<body bgcolor="green">
+<center>
+<input type="text" id="n">
+<input type="button" value="Generar" Onclick="boton1()"><br><br>
+<input type="text" id="m">
+<input type="button" value="Generar" Onclick="boton2()"><br><br>
+<input type="button" id="o" value="Merge" disabled=false Onclick="Merge()">
+</center>
+<script>
+var a = [];
+var b = [];
+var c = [];
+var i=0;
+var j=0;
+var d=0
+var e=0;
+var f=0;
+var k=0;
+var b1=false;
+var b2=false;
+
+function boton1()
+{ d=n.value*1;
+  a[0]=0;
+  for (i=1; i<=d; i++)
+  {
+    a[i]= Math.round(Math.random()*10)+a[i-1]+1;
+  }
+  b1=true;
+  if ((b1==true) && (b2==true))
+    o.disabled=false;
+}
+
+function boton2()
+{ e=m.value*1;
+  b[0]=0;
+  for (i=1; i<=e; i++)
+  {
+    b[i]= Math.round(Math.random()*10)+b[i-1]+1;
+  }
+  b2=true;
+  if ((b1==true) && (b2==true))
+    o.disabled=false;
+}
+
+function Merge()
+{ i=1;
+  j=1;
+  f=d+e;
+  a[d+1]=b[e]+1;
+  b[e+1]=a[d]+1;
+  for (k=1; k<=f; k++)
+  {
+    if (a[i]<b[j])
+      {c[k]=a[i]; i++;}
+    else
+      {c[k]=b[j]; j++;}
+  }
+  for (k=1; k<=d; k++)
+    {document.write(a[k]); document.write(" ");}
+  document.writeln("   ");
+  for (k=1; k<=e; k++)
+    {document.write(b[k]); document.write(" ");}
+  document.writeln("   ");
+  for (k=1; k<=f; k++)
+    {document.write(c[k]); document.write(" ");}
+}
+</script>
+</body>
+</html>

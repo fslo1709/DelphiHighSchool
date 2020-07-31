@@ -1,0 +1,15 @@
+program rad_a_grados;//Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils,
+  Math;
+var
+  a: real;
+begin
+  Writeln ('Ingrese un ángulo en radianes');
+  a:= a*(180/pi);
+  Writeln('El ángulo en grados sexagesimales es: ', a:7:2);
+  a:= sin(a*pi/180)/cos(a*pi/180);
+  Writeln ('La tangente del número es: ', a);
+  readln
+end.

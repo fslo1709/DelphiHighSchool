@@ -1,0 +1,18 @@
+C:\Users\Ness\Documents\Proyectos Computación\C#\Stacks\Stacks\bin\Debug\Stacks.exe
+C:\Users\Ness\Documents\Proyectos Computación\C#\Stacks\Stacks\bin\Debug\Stacks.pdb
+C:\Users\Ness\Documents\Proyectos Computación\C#\Stacks\Stacks\obj\x86\Debug\Stacks.Form1.resources
+C:\Users\Ness\Documents\Proyectos Computación\C#\Stacks\Stacks\obj\x86\Debug\Stacks.Properties.Resources.resources
+C:\Users\Ness\Documents\Proyectos Computación\C#\Stacks\Stacks\obj\x86\Debug\Stacks.csproj.GenerateResource.Cache
+C:\Users\Ness\Documents\Proyectos Computación\C#\Stacks\Stacks\obj\x86\Debug\Stacks.exe
+C:\Users\Ness\Documents\Proyectos Computación\C#\Stacks\Stacks\obj\x86\Debug\Stacks.pdb
+C:\Users\Ness\Documents\Proyectos Computación\C#\Stacks\Stacks\obj\x86\Debug\Stacks.csprojResolveAssemblyReference.cache
+C:\Users\Victor Lopez\Desktop\Stacks\Stacks\obj\x86\Debug\Stacks.exe
+C:\Users\Victor Lopez\Desktop\Stacks\Stacks\obj\x86\Debug\Stacks.pdb
+C:\Users\Victor Lopez\Desktop\Stacks\Stacks\bin\Debug\Stacks.exe
+C:\Users\Victor Lopez\Desktop\Stacks\Stacks\bin\Debug\Stacks.pdb
+C:\Users\Victor Lopez\Desktop\Stacks\Stacks\obj\x86\Debug\Stacks.csprojResolveAssemblyReference.cache
+C:\Users\Victor Lopez\Desktop\Stacks\Stacks\obj\x86\Debug\Stacks.Form1.resources
+C:\Users\Victor Lopez\Desktop\Stacks\Stacks\obj\x86\Debug\Stacks.Properties.Resources.resources
+C:\Users\Victor Lopez\Desktop\Stacks\Stacks\obj\x86\Debug\Stacks.csproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Stacks Fernando Lopez C5A\Stacks\obj\x86\Debug\Stacks.exe
+C:\Users\Victor Lopez\Desktop\Stacks Fernando Lopez C5A\Stacks\obj\x86\Debug\Stacks.pdb

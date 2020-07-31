@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/01/14 10:26:09.000.437,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/14 10:35:03.000.098,C:\Windows\system32\Projects\Unit1.dfm=C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\guitar_hero.dfm</Transaction>
+    <Transaction>2015/01/14 10:35:03.000.098,C:\Windows\system32\Projects\Unit1.pas=C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\guitar_hero.pas</Transaction>
+    <Transaction>2015/01/14 10:35:07.000.250,C:\Windows\system32\Projects\Project1.dproj=C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\guitar_hero_.dproj</Transaction>
+    <Transaction>2015/01/15 11:38:24.000.753,=C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\Unit2.pas</Transaction>
+    <Transaction>2015/01/15 11:39:14.000.440,C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\Unit2.pas=C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\compositor.pas</Transaction>
+    <Transaction>2015/01/15 11:39:14.000.440,C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\Unit2.dfm=C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\compositor.dfm</Transaction>
+    <Transaction>2015/01/15 20:11:15.000.526,=C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\Unit3.pas</Transaction>
+    <Transaction>2015/01/15 20:11:49.000.178,C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\Unit3.dfm=C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\play.dfm</Transaction>
+    <Transaction>2015/01/15 20:11:49.000.178,C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\Unit3.pas=C:\Users\Victor Lopez\Desktop\Programas\C5\Guitar Hero\play.pas</Transaction>
+  </Transactions>
+</BorlandProject>

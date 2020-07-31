@@ -1,0 +1,7 @@
+C:\Users\Victor Lopez\Desktop\Programas\C5\Suma C#\suma\suma\obj\x86\Debug\suma.Form1.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Suma C#\suma\suma\obj\x86\Debug\suma.Properties.Resources.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Suma C#\suma\suma\obj\x86\Debug\suma.csproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Suma C#\suma\suma\bin\Debug\suma.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Suma C#\suma\suma\bin\Debug\suma.pdb
+C:\Users\Victor Lopez\Desktop\Programas\C5\Suma C#\suma\suma\obj\x86\Debug\suma.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Suma C#\suma\suma\obj\x86\Debug\suma.pdb

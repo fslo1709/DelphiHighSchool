@@ -1,0 +1,88 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+var vr = new Array();
+var i=0;
+var pn= "x";
+function ValidFinishDrag(ev,holis) 
+	{	if (document.getElementById("miau"+holis).childElementCount==0)
+			{	ev.preventDefault();}}
+function StartDrag(ev,c) 
+	{	if (pn!=c)
+			{alert("Espere su turno");}
+		else
+			{ev.dataTransfer.setData("text", ev.target.id);}}
+function FinishDrag(ev) 
+	{	ev.preventDefault();
+		var data = ev.dataTransfer.getData("text");
+		ev.target.appendChild(document.getElementById(data));
+		tutifruti();}
+function tutifruti()
+	{	for (i=1; i<=9; i++)
+			{	if (document.getElementById("miau"+i).firstChild != null)										//Cambiar esto por la direccion de su compu de la imagen de la X
+					{	if(document.getElementById(document.getElementById("miau"+i).firstChild.id).src == "file:///C:/Users/Victor%20Lopez/Desktop/Programas/Paginas/Tic%20Tac%20Toe/x.png");
+							{	vr[i]=1;}																		//Cambiar esto por la direccion de su compu de la imagen de la O
+						if(document.getElementById(document.getElementById("miau"+i).firstChild.id).src == "file:///C:/Users/Victor%20Lopez/Desktop/Programas/Paginas/Tic%20Tac%20Toe/o.png")
+							{	vr[i]=2;}}
+				else
+					{	vr[i]=0;}}
+		if (((vr[1]==vr[5]) && (vr[5]==vr[9])) && (vr[5] != 0))
+			{	alert("Gana: Jugador "+vr[5]);
+				window.location.reload();}
+		if (((vr[3]==vr[5]) && (vr[5]==vr[7])) && (vr[5] != 0))
+			{	alert("Gana: Jugador "+vr[5]);
+				window.location.reload();}
+		for (i=0; i<3; i++)
+			{	if (((vr[1+(i*3)]==vr[2+(i*3)]) && (vr[2+(i*3)]==vr[3+(i*3)])) && (vr[2+(i*3)] != 0))
+					{	alert("Gana: Jugador "+vr[2+(i*3)]);
+						window.location.reload();}}
+		for (i=0; i<3; i++)
+			{	if (((vr[1+i]==vr[4+i]) && (vr[4+i]==vr[7+i])) && (vr[4+i] != 0))
+					{	alert("Gana: Jugador "+vr[4+i]);
+						window.location.reload();}}
+		if (pn=="x")
+			{	pn="o";}
+		else
+			{	pn="x";}}
+</script>
+</head>
+<body>
+<center>
+<h1>Fernando López</h1>
+<h1>Totito</h1>
+</br>
+Jugador 1: X Jugador 2: O
+<table border="1px" align="center" id="table1">
+	<tr>
+		<td id="miau1" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,1)" style="width:70px;height:70px;padding:10px;border:1px solid"></td>
+		<td id="miau2" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,2)" style="width:70px;height:70px;padding:10px;border:1px solid"></td>
+		<td id="miau3" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,3)" style="width:70px;height:70px;padding:10px;border:1px solid"></td>
+	</tr>
+	<tr>
+		<td id="miau4" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,4)" style="width:70px;height:70px;padding:10px;border:1px solid"></td>
+		<td id="miau5" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,5)" style="width:70px;height:70px;padding:10px;border:1px solid"></td>
+		<td id="miau6" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,6)" style="width:70px;height:70px;padding:10px;border:1px solid"></td>
+	</tr>
+	<tr>
+		<td id="miau7" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,7)" style="width:70px;height:70px;padding:10px;border:1px solid"></td>
+		<td id="miau8" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,8)" style="width:70px;height:70px;padding:10px;border:1px solid"></td>
+		<td id="miau9" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,9)" style="width:70px;height:70px;padding:10px;border:1px solid"></td>
+	</tr>
+</table>
+</center>
+</br>
+</br>
+<table align="center" id="table2">
+	<tr>
+		<td><div id="miau10" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,10)" style="width:70px;height:70px;padding:10px;border:1px solid"><img id="drag1" src="x.png" draggable="true" ondragstart="StartDrag(event,'x')" width="70" height="70"></div></td>
+		<td><div id="miau11" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,11)" style="width:70px;height:70px;padding:10px;border:1px solid"><img id="drag2" src="x.png" draggable="true" ondragstart="StartDrag(event,'x')" width="70" height="70"></div></td>
+		<td><div id="miau12" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,12)" style="width:70px;height:70px;padding:10px;border:1px solid"><img id="drag3" src="x.png" draggable="true" ondragstart="StartDrag(event,'x')" width="70" height="70"></div></td>
+	</tr>
+	<tr>
+		<td><div id="miau13" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,13)" style="width:70px;height:70px;padding:10px;border:1px solid"><img id="drag4" src="o.png" draggable="true" ondragstart="StartDrag(event,'o')" width="70" height="70"></div></td>
+		<td><div id="miau14" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,14)" style="width:70px;height:70px;padding:10px;border:1px solid"><img id="drag5" src="o.png" draggable="true" ondragstart="StartDrag(event,'o')" width="70" height="70"></div></td>
+		<td><div id="miau15" ondrop="FinishDrag(event)" ondragover="ValidFinishDrag(event,15)" style="width:70px;height:70px;padding:10px;border:1px solid"><img id="drag6" src="o.png" draggable="true" ondragstart="StartDrag(event,'o')" width="70" height="70"></div></td>
+	</tr>
+</body>
+</html>

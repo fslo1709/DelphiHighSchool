@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/07/10 09:06:21.000.999,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/07/29 17:44:33.000.739,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/07/29 19:14:11.000.754,C:\Windows\system32\Projects\Unit1.dfm=C:\Users\Victor Lopez\Desktop\Programas\C5\Damas españolas\Unit1.dfm</Transaction>
+    <Transaction>2015/07/29 19:14:11.000.754,C:\Windows\system32\Projects\Unit1.pas=C:\Users\Victor Lopez\Desktop\Programas\C5\Damas españolas\Unit1.pas</Transaction>
+    <Transaction>2015/07/29 19:14:13.000.600,C:\Windows\system32\Projects\Project1.dproj=C:\Users\Victor Lopez\Desktop\Programas\C5\Damas españolas\Damas.dproj</Transaction>
+    <Transaction>2015/10/11 22:26:27.000.671,C:\Users\Victor Lopez\Desktop\Programas\C5\Damas españolas\Unit1.dfm=C:\Users\Victor Lopez\Desktop\Andrea Damas C5A\Unit1.dfm</Transaction>
+    <Transaction>2015/10/11 22:26:27.000.671,C:\Users\Victor Lopez\Desktop\Programas\C5\Damas españolas\Unit1.pas=C:\Users\Victor Lopez\Desktop\Andrea Damas C5A\Unit1.pas</Transaction>
+    <Transaction>2015/10/11 22:29:38.000.199,=C:\Users\Victor Lopez\Desktop\Programas\C5\Damas españolas\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

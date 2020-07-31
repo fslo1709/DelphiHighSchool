@@ -1,0 +1,11 @@
+program rad_a_grados;//Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils,
+  Math;
+var
+  a: real;
+begin
+  Writeln ('');
+  a:= a*(180/pi);
+end.

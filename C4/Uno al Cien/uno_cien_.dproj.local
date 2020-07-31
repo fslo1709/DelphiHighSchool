@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/07/02 07:35:58.000.353,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/02 07:45:14.000.559,C:\Users\Victor Lopez\Desktop\Programas\Uno al Cien\uno_cien.dfm=C:\Windows\system32\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/07/02 07:45:14.000.559,C:\Users\Victor Lopez\Desktop\Programas\Uno al Cien\uno_cien.pas=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/02 07:45:17.000.833,C:\Users\Victor Lopez\Desktop\Programas\Uno al Cien\uno_cien_.dproj=C:\Windows\system32\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

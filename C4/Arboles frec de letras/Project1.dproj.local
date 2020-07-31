@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/17 13:30:29.000.314,=C:\Users\Andrés\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/17 15:52:37.000.683,C:\Users\Andrés\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Andrés\Desktop\Semestre 2 2014\Programas\Arboles frec de letras\Unit1.dfm</Transaction>
+    <Transaction>2014/10/17 15:52:37.000.683,C:\Users\Andrés\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\Andrés\Desktop\Semestre 2 2014\Programas\Arboles frec de letras\Unit1.pas</Transaction>
+    <Transaction>2014/10/17 15:52:38.000.646,C:\Users\Andrés\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\Andrés\Desktop\Semestre 2 2014\Programas\Arboles frec de letras\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,8 @@
+C:\Users\Victor Lopez\Desktop\Programas\C5\Funciones C#\Evaluador\Evaluador\bin\Debug\Evaluador.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Funciones C#\Evaluador\Evaluador\bin\Debug\Evaluador.pdb
+C:\Users\Victor Lopez\Desktop\Programas\C5\Funciones C#\Evaluador\Evaluador\obj\x86\Debug\Evaluador.csprojResolveAssemblyReference.cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Funciones C#\Evaluador\Evaluador\obj\x86\Debug\Evaluador.Form1.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Funciones C#\Evaluador\Evaluador\obj\x86\Debug\Evaluador.Properties.Resources.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Funciones C#\Evaluador\Evaluador\obj\x86\Debug\Evaluador.csproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Funciones C#\Evaluador\Evaluador\obj\x86\Debug\Evaluador.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Funciones C#\Evaluador\Evaluador\obj\x86\Debug\Evaluador.pdb

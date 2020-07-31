@@ -1,0 +1,119 @@
+<html>
+<head><font size="12"><center>Sorts</center></font></head> <br>
+<title>Fernando López, C5A</title>
+<body bgcolor="green">
+<center>
+<br><br><br><br>
+<input type="text" id="gen"><br><br>
+<input type="button" value="Generar" Onclick="generar()"><br><br>
+<input type="text" id="num"><br><br><br><br>
+<input type="text" id="bubb"><br><br>
+<input type="button" value="Bubble" Onclick="bubble()"><br><br>
+<input type="text" id="ins"><br><br>
+<input type="button" value="Inserción" Onclick="insercion()"><br><br>
+<input type="text" id="conte"><br><br>
+<input type="button" value="Conteo" Onclick="conteo()"><br><br><br>
+<input type="text" id="ti">
+</center>
+</body>
+<script>
+var a = [];
+var m1 = [];
+var m2 = [];
+var m3 = [];
+var i=0;
+var j=0;
+var d=0;
+var e=0;
+var tiempof=0;
+
+function generar()
+{ d=gen.value*1;
+  num.value='';
+  for (i=1; i<=d; i++)
+  {
+    a[i]= Math.round(Math.random()*50)+1;
+    num.value= num.value+String(a[i])+' ';
+  }
+}
+
+function bubble()
+{ start = new Date().getTime();
+  bubb.value='';
+  for (i=1; i<=d; i++)
+  {
+    m1[i]=a[i];
+  }
+  for (i=1; i<=d; i++)
+  {
+    e=m1[i];
+    for (j=i+1; j<=d; j++)
+      {
+        if (m1[j]<e)
+          { e=m1[j];
+            m1[j]=m1[i];
+            m1[i]=e;
+          }
+      }
+  }
+  for (i=1; i<=d; i++)
+  { bubb.value=bubb.value+String(m1[i])+' ';
+  }
+  finish = new Date().getTime();
+  ti.value= finish-start;
+}
+
+function insercion()
+{ start = new Date().getTime();
+  ins.value='';
+  for (i=1; i<=d; i++)
+  {
+    m2[i]=a[i];
+  }
+  for (i=1; i<=d; i++)
+    {
+    for (j=i; j>=0; j--)
+      { if (m2[j]<m2[j-1])
+          { e=m2[j];
+            m2[j]=m2[j-1];
+            m2[j-1]=e;
+          }
+      }
+    }
+  for (i=1; i<=d; i++)
+    { ins.value=ins.value+String(m2[i])+' ';
+    }
+  finish = new Date().getTime();
+  ti.value= finish-start;
+}
+
+function conteo()
+{ start = new Date().getTime();
+  conte.value='';
+  for (i=1; i<=d; i++)
+  {
+    m3[i]=-1;
+  }
+  for (i=1; i<=d; i++)
+  { e=1;
+    for (j=0; j<=d; j++)
+    { if (a[i]>a[j])
+        { e++;
+        }
+    }
+    m3[e]=a[i];
+  }
+  for (i=1; i<=d; i++)
+  { if (m3[i]==-1)
+      { m3[i]=m3[i-1];
+      }
+  }
+  for (i=1; i<=d; i++)
+  { conte.value= conte.value+String(m3[i])+' ';
+  }
+  finish = new Date().getTime();
+  ti.value= finish-start;
+}
+
+</script>
+</html>

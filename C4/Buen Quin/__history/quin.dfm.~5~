@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Quine McCluskey'
+  ClientHeight = 536
+  ClientWidth = 569
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 32
+    Top = 128
+    Width = 121
+    Height = 41
+    Caption = 'Reducir'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object LabeledEdit1: TLabeledEdit
+    Left = 32
+    Top = 32
+    Width = 249
+    Height = 27
+    EditLabel.Width = 90
+    EditLabel.Height = 19
+    EditLabel.Caption = 'Letras a usar'
+    EditLabel.Font.Charset = DEFAULT_CHARSET
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -16
+    EditLabel.Font.Name = 'Tahoma'
+    EditLabel.Font.Style = []
+    EditLabel.ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    Text = 'x,y,z,u'
+  end
+  object Edit1: TEdit
+    Left = 32
+    Top = 80
+    Width = 509
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 32
+    Top = 191
+    Width = 509
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object StringGrid1: TStringGrid
+    Left = 32
+    Top = 248
+    Width = 509
+    Height = 272
+    DefaultColWidth = 50
+    FixedCols = 0
+    FixedRows = 0
+    TabOrder = 4
+    Visible = False
+  end
+end

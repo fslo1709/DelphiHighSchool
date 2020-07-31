@@ -1,0 +1,32 @@
+﻿Build started 17/10/2014 07:44:15 a.m..
+     1>Project "C:\Users\Victor Lopez\Desktop\Programas\C++\Calculadora\calculadora\calculadora\calculadora.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\calculadora.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\calculadora.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt calculadora.cpp /clr:nostdlib 
+         calculadora.cpp
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Victor Lopez\Desktop\Programas\C++\Calculadora\calculadora\Debug\calculadora.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\calculadora.Form1.resources /MANIFEST /ManifestFile:"Debug\calculadora.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Victor Lopez\Desktop\Programas\C++\Calculadora\calculadora\Debug\calculadora.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\calculadora.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         calculadora.vcxproj -> C:\Users\Victor Lopez\Desktop\Programas\C++\Calculadora\calculadora\Debug\calculadora.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Victor Lopez\Desktop\Programas\C++\Calculadora\calculadora\Debug\calculadora.exe;#1" /manifest Debug\calculadora.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\calculadora.unsuccessfulbuild".
+         Touching "Debug\calculadora.lastbuildstate".
+     1>Done Building Project "C:\Users\Victor Lopez\Desktop\Programas\C++\Calculadora\calculadora\calculadora\calculadora.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.32

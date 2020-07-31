@@ -1,0 +1,60 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Edit1: TEdit;
+    Label1: TLabel;
+    Button1: TButton;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+  type treg=record
+  palabra:string[10000];
+end;
+
+var
+  Form1: TForm1;
+  archivo:file of treg;
+  registro:treg;
+
+implementation
+
+{$R *.dfm}
+
+function verificar:boolean;
+var i,linea,palabra:string;
+begin
+  registro.palabra:=form1.Edit1.text;
+  reset(archivo);
+
+  while not eof(archivo) do
+    begin
+      readln(archivo,linea);
+        for i := 0  to length(linea) do
+            palabra[i]:=linea[i];
+    end;
+        if ord(palabra)=ord(registro.palabra) then
+            verificar:=true
+              else
+                verificar:=false;
+
+
+
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+ assignfile(archivo,'alumnos.c5e');
+end;
+
+end.

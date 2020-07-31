@@ -1,0 +1,41 @@
+unit copy;//Sebastián López, C4A
+interface
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+type
+  TForm1 = class(TForm)
+    Edit1: TEdit;
+    Label1: TLabel;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Button1: TButton;
+    Label5: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+var
+  Form1: TForm1;
+implementation
+{$R *.dfm}
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  a,b,i,c1,c2: integer;
+  s,r: string;
+begin
+  r:= edit1.Text;
+  s:= '';
+  val(edit2.Text,a,c1);
+  val(edit3.Text,b,c2);
+  s:= copy(edit1.text,a,b);
+  {for i := a to b+a do
+    s:= s+r[i];      }
+  label5.Caption:= s;
+end;
+end.

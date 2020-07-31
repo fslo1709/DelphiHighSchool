@@ -1,0 +1,93 @@
+<html>
+<head><font size="12"><center>Merge</center></font></head> <br>
+<title>Fernando López, C5A</title>
+<body bgcolor="green">
+<center>
+<br><br><br><br>
+<input type="text" id="texto1"><br><br>
+<input type="text" id="texto2"><br><br>
+<input type="text" id="texto3"><br><br>
+<input type="text" id="texto4"><br><br>
+<input type="text" id="texto5"><br><br>
+<input type="text" id="texto6"><br><br>
+<input type="text" id="texto7"><br><br>
+<input type="text" id="texto8"><br><br>
+<input type="text" id="texto9"><br><br>
+<input type="text" id="texto10"><br><br>
+<input type="button" value="Merge" Onclick="mer()"><br><br>
+<input style="width:1300px" type="text" id="respuesta" disabled=true>
+</center>
+</body>
+<script>
+    var m = [];
+    var mr = [];
+    var mt = [];
+    var i = 0;
+    var mayor = 0;
+    var temp = 0;
+    var j = 0;
+    var k = 0;
+    var cont = 2;
+function mer() {
+for (i=1; i<7; i++) {
+    for (j = 0; j < 10; j++)
+        {m[j*6+i]=0;}
+    }
+for (i=1; i<51; i++)
+  {mr[i]=0;
+   mt[i]=0;
+}
+  for (i=1; i<11; i++){
+    document.getElementById("texto"+i).value = "";
+  }
+  for (j=0; j<10; j++) {
+      for (i = 1; i < 6; i++) {
+          m[j * 6 + i] = Math.round(Math.random() * 100) + m[j * 6 + i - 1] + 1;
+          if (i == 1) {
+              m[j * 6 + i] = Math.round(Math.random() * 100) + 1;
+          }
+      }
+    }
+  respuesta.value='';
+  mayor=m[5];
+  for (i=1; i<10; i++)
+  { if (m[i*6+5]>mayor)
+    { mayor=m[i*6+5]; }
+  }
+  for (i=0; i<10; i++)
+  { m[i*6+6]=mayor+1;
+  }
+  for (i = 1; i < 7; i++) {
+     for (j = 1; j<11; j++) {
+       document.getElementById("texto"+j).value += m[(j-1) * 6 + i] + ' ';}
+   }
+  for (i=1; i<=6; i++)
+  { mr[i]=m[i];
+  }
+  while (cont < 11) {
+      i = 1;
+      j = 1;
+      k = 1;
+    while (i <= (cont * 5)) {
+      if (mr[k]<m[(cont-1)*6+j]) {
+          mt[i] = mr[k];
+          k++;
+      }
+      else {
+          mt[i] = m[(cont-1) * 6 + j];
+          j++;
+      }
+      i++;
+  }
+  for (i = 1; i < (cont * 5); i++) {
+      mr[i] = mt[i];
+  }
+    cont++;
+}
+for (i = 1; i < 50; i++) {
+    respuesta.value += mr[i] + " ";
+}
+}
+
+</script>
+</html>

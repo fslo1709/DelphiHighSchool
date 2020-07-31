@@ -1,0 +1,9 @@
+program Descomposicion_numeros;
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+var
+  a,b,c,d,e,f,g: integer;
+begin
+
+end.

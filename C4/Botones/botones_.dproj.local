@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/07/29 08:18:11.000.754,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/29 08:19:21.000.318,C:\Users\Victor Lopez\Desktop\Programas\Botones\botones.pas=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/07/29 08:19:21.000.318,C:\Users\Victor Lopez\Desktop\Programas\Botones\botones.dfm=C:\Windows\system32\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/07/29 08:19:24.000.641,C:\Users\Victor Lopez\Desktop\Programas\Botones\botones_.dproj=C:\Windows\system32\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

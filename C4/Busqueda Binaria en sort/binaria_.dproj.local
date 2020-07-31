@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/08/28 17:12:40.000.616,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/28 17:33:01.000.911,C:\Windows\system32\Projects\Unit1.dfm=C:\Users\Victor Lopez\Desktop\Programas\Busqueda Binaria en sort\binaria.dfm</Transaction>
+    <Transaction>2014/08/28 17:33:01.000.911,C:\Windows\system32\Projects\Unit1.pas=C:\Users\Victor Lopez\Desktop\Programas\Busqueda Binaria en sort\binaria.pas</Transaction>
+    <Transaction>2014/08/28 17:33:03.000.969,C:\Windows\system32\Projects\Project1.dproj=C:\Users\Victor Lopez\Desktop\Programas\Busqueda Binaria en sort\binaria_.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

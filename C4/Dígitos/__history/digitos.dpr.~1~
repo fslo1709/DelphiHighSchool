@@ -1,0 +1,10 @@
+program digitos;//Sebastián López, C4
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+var
+  a: char;
+begin
+
+end.

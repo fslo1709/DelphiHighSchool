@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2014/08/26 11:36:08.861,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/26 11:38:31.793,C:\Users\Victor Lopez\Desktop\Programas\Open Dialog\opendialog.pas=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/08/26 11:38:31.793,C:\Users\Victor Lopez\Desktop\Programas\Open Dialog\opendialog.dfm=C:\Windows\system32\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/08/26 11:38:35.756,C:\Users\Victor Lopez\Desktop\Programas\Open Dialog\open_dialog.dproj=C:\Windows\system32\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

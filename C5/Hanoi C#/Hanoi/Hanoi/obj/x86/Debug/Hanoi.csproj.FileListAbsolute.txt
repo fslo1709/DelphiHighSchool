@@ -1,0 +1,8 @@
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hanoi C#\Hanoi\Hanoi\bin\Debug\Hanoi.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hanoi C#\Hanoi\Hanoi\bin\Debug\Hanoi.pdb
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hanoi C#\Hanoi\Hanoi\obj\x86\Debug\Hanoi.csprojResolveAssemblyReference.cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hanoi C#\Hanoi\Hanoi\obj\x86\Debug\Hanoi.Form1.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hanoi C#\Hanoi\Hanoi\obj\x86\Debug\Hanoi.Properties.Resources.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hanoi C#\Hanoi\Hanoi\obj\x86\Debug\Hanoi.csproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hanoi C#\Hanoi\Hanoi\obj\x86\Debug\Hanoi.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Hanoi C#\Hanoi\Hanoi\obj\x86\Debug\Hanoi.pdb

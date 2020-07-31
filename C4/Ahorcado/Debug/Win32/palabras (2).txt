@@ -1,0 +1,9 @@
+estructuracion
+carro
+perro
+camisa
+esdrujula
+caminata
+ventilacion
+cancionero
+mantenimineto

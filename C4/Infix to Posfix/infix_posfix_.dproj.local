@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/01/19 10:29:39.000.685,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/19 10:36:52.000.912,C:\Users\Victor Lopez\Desktop\Programas\Infix to Posfix\infix_posfix.pas=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/19 10:36:52.000.912,C:\Users\Victor Lopez\Desktop\Programas\Infix to Posfix\infix_posfix.dfm=C:\Windows\system32\Projects\Unit1.dfm</Transaction>
+    <Transaction>2015/01/19 10:36:56.000.765,C:\Users\Victor Lopez\Desktop\Programas\Infix to Posfix\infix_posfix_.dproj=C:\Windows\system32\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

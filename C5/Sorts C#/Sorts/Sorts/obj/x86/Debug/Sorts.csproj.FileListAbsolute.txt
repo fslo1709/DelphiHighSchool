@@ -1,0 +1,8 @@
+C:\Users\Victor Lopez\Desktop\Programas\C5\Sorts C#\Sorts\Sorts\bin\Debug\Sorts.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Sorts C#\Sorts\Sorts\bin\Debug\Sorts.pdb
+C:\Users\Victor Lopez\Desktop\Programas\C5\Sorts C#\Sorts\Sorts\obj\x86\Debug\Sorts.Form1.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Sorts C#\Sorts\Sorts\obj\x86\Debug\Sorts.Properties.Resources.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Sorts C#\Sorts\Sorts\obj\x86\Debug\Sorts.csproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Sorts C#\Sorts\Sorts\obj\x86\Debug\Sorts.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Sorts C#\Sorts\Sorts\obj\x86\Debug\Sorts.pdb
+C:\Users\Victor Lopez\Desktop\Programas\C5\Sorts C#\Sorts\Sorts\obj\x86\Debug\Sorts.csprojResolveAssemblyReference.cache

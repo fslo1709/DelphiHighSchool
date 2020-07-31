@@ -1,0 +1,9 @@
+program primer_programa; //Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+begin
+  writeln('Sebastián López');
+  readln
+end.

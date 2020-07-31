@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/03/26 07:48:37.000.062,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/03/26 07:50:57.000.475,C:\Windows\system32\Projects\Unit1.dfm=C:\Users\Victor Lopez\Desktop\Programas\Suma Memo\Suma_Memo.dfm</Transaction>
+    <Transaction>2014/03/26 07:50:57.000.475,C:\Windows\system32\Projects\Unit1.pas=C:\Users\Victor Lopez\Desktop\Programas\Suma Memo\Suma_Memo.pas</Transaction>
+    <Transaction>2014/03/26 07:51:04.000.983,C:\Windows\system32\Projects\Project1.dproj=C:\Users\Victor Lopez\Desktop\Programas\Suma Memo\Suma_Memo_.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

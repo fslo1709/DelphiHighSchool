@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/09/21 18:34:22.000.530,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/21 20:43:01.000.522,C:\Users\Victor Lopez\Desktop\Programas\Buen Quin\quin.pas=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/21 20:43:01.000.522,C:\Users\Victor Lopez\Desktop\Programas\Buen Quin\quin.dfm=C:\Windows\system32\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/09/21 20:43:03.000.207,C:\Users\Victor Lopez\Desktop\Programas\Buen Quin\quin_.dproj=C:\Windows\system32\Projects\Project1.dproj</Transaction>
+    <Transaction>2014/10/18 12:02:55.000.255,C:\Users\Victor Lopez\Desktop\Programas\Buen Quin\quine.dfm=C:\Users\Victor Lopez\Desktop\Programas\Buen Quin\quin.dfm</Transaction>
+    <Transaction>2014/10/18 12:02:55.000.255,C:\Users\Victor Lopez\Desktop\Programas\Buen Quin\quine.pas=C:\Users\Victor Lopez\Desktop\Programas\Buen Quin\quin.pas</Transaction>
+    <Transaction>2014/10/18 12:03:10.000.026,C:\Users\Victor Lopez\Desktop\Programas\Buen Quin\quine_.dproj=C:\Users\Victor Lopez\Desktop\Programas\Buen Quin\quin_.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,129 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Edit1: TEdit;
+    Label1: TLabel;
+    Button1: TButton;
+    Memo1: TMemo;
+    Memo2: TMemo;
+    Label2: TLabel;
+    Label3: TLabel;
+    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+  type treg=record
+  palabra:string[255];
+  significado:string[255];
+  end;
+
+  type pnodo=^nodo;
+      nodo=record
+      pos:integer;
+      ele:string;
+      sig:pnodo;
+      coli:pnodo;
+     end;
+
+
+
+var
+  Form1: TForm1;
+  archivo:file of treg;
+  registro:treg;
+  actual:integer;
+  contcol:integer;
+  pun:pnodo;
+
+implementation
+
+{$R *.dfm}
+
+
+function Hash(s:string):integer;
+var i,r:integer;
+begin
+r:=0;
+  for i := 1 to length(s) do
+    r:=r+ord(s[i]);
+    hash:=r mod 20;
+end;
+
+Function Busca(S:String):integer;
+var r,p:integer;
+begin
+
+r:=-1;
+p:=Hash(s)-1;
+
+repeat
+  inc(p);
+  seek(archivo,p);
+  read(archivo,registro);
+until ((Registro.palabra=s) or (registro.palabra='*') or (p=29));
+
+if registro.palabra=s then
+  busca:=p
+    else
+    busca:=-1;
+end;
+
+//GUARDAR--------------------------------------------------
+procedure guardar;
+var
+rt,re:treg;
+p:integer;
+begin
+
+  registro.palabra:=form1.Edit1.Text;
+  reset(archivo);
+  p:=hash(registro.palabra)-1;
+
+    repeat
+      inc(p);
+
+      read(archivo,rt);
+    until ((rt.palabra='*') or (rt.palabra='-'));
+  seek(archivo,p);
+  write(archivo,registro);
+
+  pun.pos:=p;
+  pun.ele:=registro.palabra;
+  pun.sig:=
+
+
+  closefile(archivo);
+end;
+
+
+
+
+
+
+procedure TForm1.Button1Click(Sender: TObject);
+var i:integer; temp:string;
+begin
+
+showmessage(inttostr(hash(edit1.Text)));
+
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+ assignfile(archivo,'palabras.c5e');
+ contcol:=0;
+ actual:=0;
+end;
+
+end.

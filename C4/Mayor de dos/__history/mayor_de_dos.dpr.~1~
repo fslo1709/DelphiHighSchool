@@ -1,0 +1,8 @@
+program mayor_de_dos;//Pedro Armas
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+begin
+
+end.

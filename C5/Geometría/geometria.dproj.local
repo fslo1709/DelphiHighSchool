@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/07/09 19:40:08.000.031,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/07/09 19:48:05.000.727,C:\Users\Victor Lopez\Desktop\Programas\C5\Geometría\Unit1.dfm=C:\Windows\system32\Projects\Unit1.dfm</Transaction>
+    <Transaction>2015/07/09 19:48:05.000.727,C:\Users\Victor Lopez\Desktop\Programas\C5\Geometría\Unit1.pas=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/07/09 19:48:07.000.771,C:\Users\Victor Lopez\Desktop\Programas\C5\Geometría\geometria.dproj=C:\Windows\system32\Projects\Project1.dproj</Transaction>
+    <Transaction>2015/07/13 22:24:28.000.170,=C:\Users\Victor Lopez\Desktop\Programas\C5\Geometría\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

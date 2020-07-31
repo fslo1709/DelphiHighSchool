@@ -1,0 +1,40 @@
+program tres_algoritmos;//Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+var
+  op: char;
+  a,b,c,d,x1,x2: real;
+begin
+  writeln ('Sebastián López');
+  Writeln ('Ingrese una de las tres opciones');
+  Writeln (' ');
+  Writeln ('a) Vietta');
+  Writeln ('b) Mayor de tres números');
+  Writeln ('c) Vuelto');
+  Writeln (' ');
+  readln(op);
+  case op of
+    a: begin
+        readln (a,b,c);
+        d:= b*b-4*a*c;
+        if d<0 then
+          writeln ('No hay solución real')
+        else
+          begin
+            x1:= (-b+sqrt(d))/(2*a);
+            x2:= (-b-sqrt(d))/(2*a);
+          end;
+       end;
+    b: begin
+
+       end;
+    c: begin
+
+       end
+  else
+    Writeln ('Ingrese una opción válida');
+  end;
+  readln
+end.

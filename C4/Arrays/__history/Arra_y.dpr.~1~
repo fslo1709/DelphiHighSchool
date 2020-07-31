@@ -1,0 +1,10 @@
+program Arra_y;
+
+{$APPTYPE CONSOLE}
+
+uses
+  SysUtils;
+
+begin
+  write (
+end.

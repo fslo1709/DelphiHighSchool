@@ -1,0 +1,106 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#titulo {
+	font-family: Arial;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+#letras {
+	font-family: Arial;
+	color: white;
+	font-size: 30px;
+}
+#Letrasfalladas {
+	font-family: Arial;
+	color: white;
+	font-size: 20px;
+}
+#Letrascorrectas {
+	font-family: Arial;
+	color: white;
+	font-size: 20px;
+}
+</style>
+<title>Fernando López, C5A</title>
+<script>
+var palabras = new Array("hola","meow","dificil","computacion","abecedario","murcielago","docil","uva","gato","perro","stacks","seniors","jscript","delphi","csharp","geek","yolo","swag","mouse","ahorcado");
+var i = 0;
+var pal = "";
+var pal2 = "";
+var le = "";
+var let = 0;
+var t = 0;
+var contador = 0;
+var contaneg = 7;
+var cont = 0;
+function Palabra()
+{	t=Math.floor(Math.random()*20)+1;
+	pal=palabras[t];
+	var tabla2 = document.getElementById("table2");
+	for (i=0; i<pal.length; i++)
+		{	tabla2.rows[0].insertCell(i);
+			tabla2.rows[0].cells[i].innerHTML=tabla2.rows[0].cells[i].innerHTML+'<input type="text" id="edit'+i+'" disabled style="width:70px;height:16px">';
+		}
+}
+function Botones()
+{	var tabla = document.getElementById("table1");
+	for (i=0; i<26; i++)
+		{	tabla.rows[0].insertCell(i);
+			tabla.rows[0].cells[i].innerHTML=tabla.rows[0].cells[i].innerHTML+('<input type="button" value="'+String.fromCharCode(65+i)+'" id="But'+i+'" OnClick="Meow('+i+')">');
+		}
+	Palabra();
+}
+function Meow(x)
+{	document.getElementById('But'+x).style.visibility="hidden";
+	pal2=pal;
+	let=pal2.indexOf(String.fromCharCode(x+97));
+	cont=let;
+	if (let==-1)
+		{	alert("Fallaste");
+			contaneg--;
+			document.getElementById("ahor").src="fase"+contaneg+".bmp";
+			document.getElementById("Letrasfalladas").innerHTML+=String.fromCharCode(x+65);
+		}
+	else
+		{	while (let>-1)	
+				{	pal2=pal2.substring(let+1);
+					document.getElementById("edit"+cont).value=String.fromCharCode(x+65);
+					let=pal2.indexOf(String.fromCharCode(x+97));
+					cont+=let+1;
+					contador++;
+				}
+			document.getElementById("Letrascorrectas").innerHTML+=String.fromCharCode(x+65);
+		}
+	if (contador==pal.length)
+		{	alert("Ganaste!");
+			document.getElementById("ahor").src="fase8.bmp";
+		}
+	if (contaneg==0)
+		{	alert("Perdiste!");
+		}
+}
+</script>
+</head>
+<body bgcolor="black" onload="Botones()">
+<p id="titulo">
+AHORCADO EXTREMO
+</p>
+<center>
+<img src="fase7.bmp" style="width:300px;height:300px" id="ahor">
+<p id="letras">
+Letras:&nbsp;
+</p>
+<table id="table1"><tr></tr></table>
+<table id="table2"><tr></tr></table>
+<p id="Letrasfalladas">
+Letras falladas:&nbsp;
+</p>
+<p id="Letrascorrectas">
+Letras correctas:&nbsp;
+</p>
+</center>
+</body>
+</html>

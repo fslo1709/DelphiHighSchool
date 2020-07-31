@@ -1,0 +1,99 @@
+unit quin;
+interface
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Grids, StdCtrls, ExtCtrls;
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    LabeledEdit1: TLabeledEdit;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    StringGrid1: TStringGrid;
+    procedure Button1Click(Sender: TObject);
+    procedure Edit1Change(Sender: TObject);
+    procedure LabeledEdit1Change(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+var
+  Form1: TForm1;
+  coma: boolean;
+implementation
+{$R *.dfm}
+function numletras(s: string): integer;
+var
+  i,cont: integer;
+begin
+  cont:= 0;
+  for i:= 1 to length(s) do
+    case s[i] of
+      'a'..'z': inc(cont);
+    end;
+  numletras:= cont;
+end;
+procedure valstr(edx: tobject);
+var
+  i:integer;
+  ed1: string;
+begin
+  for i:= 1 to length((edx as tedit).text) do
+    case (edx as tedit).text[i] of
+      'a'..'z': ;
+      ',': ;
+    else
+      begin
+        ed1:= (edx as tedit).Text;
+        delete (ed1,length(ed1),1);
+        (edx as tedit).Text:= ed1;
+        showmessage ('Error');
+      end;
+    end;
+end;
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  conts: array[0..8] of boolean;
+  conts2: array[0..8] of integer;
+  exp,expfinal,num,num2,sob,temp,numfinal: array [1..10000] of string;
+  cont,contm,cont2,lim,expmayor,contap,falta,st,lim2,po,limfinal,i: integer;
+  edit,letras2,ex,letras3,faltantes:string;
+begin
+  edit:= edit1.Text;
+  lim:= 1;
+  expmayor:= 0;
+  letras2:= '';
+  st:= 1;
+  temp[1]:= '';
+  for i:= 1 to length(edit) do
+    begin
+      if edit[i] = '+' then
+        inc(lim)
+    end;
+  for i:= 1 to lim do
+    begin
+      contm:= pos('+',edit);
+      If contm = 0 then
+        exp[i]:= copy(edit,1,length(edit))
+      else
+        exp[i]:= copy(edit,1,contm-1);
+      If contm = 0 then
+        delete(edit,1,length(edit)) else
+        delete(edit,1,contm);
+    end;
+end;
+procedure TForm1.Edit1Change(Sender: TObject);
+var
+  w1,cont,po:integer;
+  edx,error,ed2:string;
+begin
+
+end;
+procedure TForm1.LabeledEdit1Change(Sender: TObject);
+var
+  let: boolean;
+begin
+
+end;
+end.

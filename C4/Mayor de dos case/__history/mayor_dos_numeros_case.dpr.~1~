@@ -1,0 +1,12 @@
+program mayor_dos_numeros_case;//Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+var
+  a,b: integer;
+begin
+  case a>b of
+    true: writeln(
+  end;
+end.

@@ -1,0 +1,55 @@
+program tres_algoritmos;//Sebastián López
+{$APPTYPE CONSOLE}
+uses
+  SysUtils;
+
+var
+  op: char;
+  a,b,c,d,x1,x2: real;
+begin
+  writeln ('Sebastián López');
+  Writeln ('Ingrese una de las tres opciones');
+  Writeln (' ');
+  Writeln ('a) Vietta');
+  Writeln ('b) Mayor de tres números');
+  Writeln ('c) Vuelto');
+  Writeln (' ');
+  readln(op);
+  case op of
+    'a':begin
+        writeln ('Ingrese tres números de una ecuación cuadrática');
+        readln (a,b,c);
+        d:= b*b-4*a*c;
+        if d<0 then
+          writeln ('No hay solución real')
+        else
+          begin
+            x1:= (-b+sqrt(d))/(2*a);
+            x2:= (-b-sqrt(d))/(2*a);
+          end;
+      end;
+    'b':begin
+        writeln ('Ingrese tres números');
+        readln (a,b,c);
+        if (a>b) and (b>c) then
+          Writeln ('a es el mayor')
+        else
+          if b>c then
+            Writeln ('b es el mayor')
+          else
+            Writeln ('c es el mayor');
+      end;
+    'c':begin
+        Writeln ('Ingrese el costo total y cuanto pagó el cliente');
+        Readln (a,b);
+        c:= b-a;
+        if c<0 then
+          Writeln ('No alcanza')
+        else
+          Writeln (c);
+      end
+  else
+    Writeln ('Ingrese una opción válida');
+  end;
+  readln
+end.

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/03/06 17:19:43.000.005,=C:\Windows\system32\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/03/06 17:22:29.000.301,C:\Windows\system32\Projects\Unit1.dfm=C:\Users\Victor Lopez\Desktop\Programas\Sumatoria números\Sumatoria.dfm</Transaction>
+    <Transaction>2014/03/06 17:22:29.000.301,C:\Windows\system32\Projects\Unit1.pas=C:\Users\Victor Lopez\Desktop\Programas\Sumatoria números\Sumatoria.pas</Transaction>
+    <Transaction>2014/03/06 17:22:35.000.425,C:\Windows\system32\Projects\Project1.dproj=C:\Users\Victor Lopez\Desktop\Programas\Sumatoria números\Sumatoria_numeros.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

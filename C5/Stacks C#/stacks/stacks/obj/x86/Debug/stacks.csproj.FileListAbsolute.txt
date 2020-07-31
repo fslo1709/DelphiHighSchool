@@ -1,0 +1,8 @@
+C:\Users\Victor Lopez\Desktop\Programas\C5\Stacks C#\stacks\stacks\obj\x86\Debug\stacks.Properties.Resources.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Stacks C#\stacks\stacks\obj\x86\Debug\stacks.csproj.GenerateResource.Cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Stacks C#\stacks\stacks\obj\x86\Debug\stacks.tstack.resources
+C:\Users\Victor Lopez\Desktop\Programas\C5\Stacks C#\stacks\stacks\obj\x86\Debug\stacks.csprojResolveAssemblyReference.cache
+C:\Users\Victor Lopez\Desktop\Programas\C5\Stacks C#\stacks\stacks\bin\Debug\stacks.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Stacks C#\stacks\stacks\bin\Debug\stacks.pdb
+C:\Users\Victor Lopez\Desktop\Programas\C5\Stacks C#\stacks\stacks\obj\x86\Debug\stacks.exe
+C:\Users\Victor Lopez\Desktop\Programas\C5\Stacks C#\stacks\stacks\obj\x86\Debug\stacks.pdb
