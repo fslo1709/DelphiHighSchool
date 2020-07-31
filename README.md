@@ -1,2 +1,2 @@
 # DelphiHighSchool
-Projects made in Turbo Delphi while I was in High School
+Projects made in Delphi (Turbo Pascal) while I was in High School
